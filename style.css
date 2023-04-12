@@ -16,18 +16,30 @@ nav li {
     margin-left: 20px;
 }
  .destaque {
- display: grid;
+ display:inline-block;
  flex-wrap: wrap;
- justify-content: space-between;
- margin: 20px; 
+ justify-content:center;
+margin: 50px; 
 }
-.destaque-item {
-    flex: 1 1 30%;
+
+.destaque2{
+display: inline-block;
+flex-wrap: wrap;
+justify-content:center;
+margin: 50px; 
+}
+.destaque-item1 {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    background-color: #78ce9f;
+}
+.destaque-item2 {
+    flex: 1 1 100%;
     margin-bottom: 20px;
     background-color: #78ce9f;
 }
 .destaque-item img {
-    width: 90%;
+    width: 900%;
     background-color: #78ce9f;
 }
 footer {
@@ -36,5 +48,8 @@ footer {
         text-align: center;
         padding: 10px;
 }
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+   }
    
-    
