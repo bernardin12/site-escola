@@ -6,7 +6,7 @@ header {
     color: rgb(0, 0, 0);
     display: grid;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
 }
 nav ul {
     display: flex;
@@ -16,27 +16,37 @@ nav li {
     margin-left: 20px;
 }
  .destaque {
- display:inline-block;
+ display: inline-block;
  flex-wrap: wrap;
  justify-content:center;
-margin: 50px; 
+ margin-bottom: 0px;
+ margin-left: 100px;
+ margin-right: 230px;
+ padding: 10px; 
 }
 
-.destaque2{
-display: inline-block;
-flex-wrap: wrap;
-justify-content:center;
-margin: 50px; 
-}
+.destaque3 {
+    display:inline-block;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin: 25px; 
+   }
+   
 .destaque-item1 {
     flex: 1 1 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background-color: #78ce9f;
 }
 .destaque-item2 {
     flex: 1 1 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background-color: #78ce9f;
+}
+.destaque-item3 {
+        flex: 1 1 10%;
+        margin-bottom: 20px;
+        background-color: #78ce9f;
+    
 }
 .destaque-item img {
     width: 900%;
